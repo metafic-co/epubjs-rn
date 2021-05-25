@@ -14,7 +14,7 @@ Getting Started
 To use the components in your own app install via npm or yarn
 
 ```bash
-npm install --save @sbrighiu/epubjs-rn
+yarn add https://github.com/metafic-co/epubjs-rn
 ```
 
 then link the required libraries with
@@ -25,7 +25,7 @@ react-native link react-native-static-server && react-native link react-native-w
 then require the default reader
 
 ```
-import EpubReader, { blockTextSelectionThemesObject, blockTextSelectionName } from '@sbrighiu/epubjs-rn';
+import EpubReader, { blockTextSelectionThemesObject, blockTextSelectionName } from '@priteshmetafic/epubjs-rn';
 ```
 
 then you can add the reader element in your code:
